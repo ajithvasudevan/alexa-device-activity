@@ -1,5 +1,5 @@
 # alexa-device-activity
-A sample app using [alexa-remote2](https://www.npmjs.com/package/alexa-remote2) to receive speech payload via MQTT and to send text to echo devices
+A simple app using [alexa-remote2](https://www.npmjs.com/package/alexa-remote2) to receive speech payload via MQTT and to send text to echo devices
 
 ## Usage
 1. Clone this project with `git clone https://github.com/ajithvasudevan/alexa-device-activity.git`
