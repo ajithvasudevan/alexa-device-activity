@@ -10,6 +10,8 @@ A sample app using alexa-remote2 to receive speech payload and to send text to e
 6. Login with your Amazon credentials and close the browser. This creates a file called `cookie.txt` in the current folder, which will be used for authentication the next time you start this app. It will get refreshed every time you restart the app.
 7. Back in the terminal, you should see your devices listed and some activity when you give Alexa commands.
 
+The command `node index.js` could be made into a *service* on a Raspberry Pi, for example, and the Device Activity Payload can be obtained using *Node-RED's* MQTT nodes.  
+
 
 ## MQTT integration
 
