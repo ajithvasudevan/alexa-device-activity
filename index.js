@@ -59,9 +59,9 @@ alexa.init({
             console.log (err);
             return;
         }
-        console.log(JSON.stringify(alexa.cookie));
-        console.log(JSON.stringify(alexa.csrf));
-        console.log(JSON.stringify(alexa.cookieData));
+        // console.log(JSON.stringify(alexa.cookie));
+        // console.log(JSON.stringify(alexa.csrf));
+        // console.log(JSON.stringify(alexa.cookieData));
         fs.writeFileSync('cookie.txt', JSON.stringify(alexa.cookieData));
         console.log('*****************************Cookie written to cookie.txt *********************************')
         var lowerNames = [];
