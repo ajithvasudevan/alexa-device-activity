@@ -20,9 +20,9 @@ This app connects to an MQTT broker specified in the `config.js` file so that yo
 The app sends the device activity payload to the MQTT topic `ALEXA_DEVICE_ACTIVITY`. The payload is a String representation of a JSON, and it contains the Device Name, and the uttered command, among other things.
 
 
-In addition to the above, this app listens to the topic `ALEXA_DEVICE_SPEAK` for incoming messages of the form "<Echo Device Name>|<Message to Speak>", i.e., the device name and the message to speak separated by a `|` character.
+In addition to the above, this app listens to the topic `ALEXA_DEVICE_SPEAK` for incoming messages of the form `<Echo Device Name>|<Message to Speak>`, i.e., the **device name** and the **message to speak** separated by a `|` character.
 
 Thus, 
-`mosquitto_pub -h 172.20.1.127 -t ALEXA_DEVICE_SPEAK -m "Workshop Echo Dot|Hello World"`  will cause the device named *Workshop Echo Dot* to speak *Hello World*
+`mosquitto_pub -h <MQTT Broker IP> -t ALEXA_DEVICE_SPEAK -m "Workshop Echo Dot|Hello World"`  will cause the Alexa device named *Workshop Echo Dot* to speak *Hello World*
   
   
