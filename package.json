@@ -1,0 +1,27 @@
+{
+  "name": "alexa-device-activity",
+  "version": "1.0.0",
+  "description": "A sample app using alexa-remote2 to receive speech payload and to send text to echo devices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajithvasudevan/alexa-device-activity.git"
+  },
+  "keywords": [
+    "alexa",
+    "echo"
+  ],
+  "author": "Ajith Vasudevan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajithvasudevan/alexa-device-activity/issues"
+  },
+  "homepage": "https://github.com/ajithvasudevan/alexa-device-activity#readme",
+  "dependencies": {
+    "alexa-remote2": "^3.8.1",
+    "mqtt": "^4.2.8"
+  }
+}
