@@ -8,7 +8,7 @@ A simple app using [alexa-remote2](https://www.npmjs.com/package/alexa-remote2) 
 4. start the app with `node index.js`  or  `node .`
 5. open the link http://localhost:3001 in your browser (if you're NOT opening browser on the same machine, replace *localhost* with the IP address of machine where app is running)
 6. Login with your Amazon credentials and close the browser. This creates a file called `cookie.txt` in the current folder, which will be used for authentication the next time you start this app. `cookie.txt` will get refreshed every time you restart the app.
-7. Back in the terminal, you should see your devices listed and some activity when you give Alexa commands.
+7. Back in the terminal, you should see your devices listed and some activity when you speak to your Alexa devices.
 
 The command `node index.js` could be made into a *service* on a Raspberry Pi, for example, and the Device Activity Payload can be obtained using *Node-RED's* MQTT nodes.  
 
