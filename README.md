@@ -15,7 +15,7 @@ The command `node index.js` could be made into a *service* on a Raspberry Pi, fo
 
 ## MQTT integration
 
-This app connects to an MQTT broker specified in the `config.js` file so that you can receive the Alexa device activity payload via MQTT.
+This app connects to an MQTT broker specified in the `config.js` file so that it can publish the Alexa device activity payload via MQTT.
 
 The app sends the device activity payload to the MQTT topic `ALEXA_DEVICE_ACTIVITY`. The payload is a String representation of a JSON, and it contains the Device Name, and the uttered command, among other things.
 
