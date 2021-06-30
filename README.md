@@ -23,6 +23,6 @@ The app sends the device activity payload to the MQTT topic `ALEXA_DEVICE_ACTIVI
 In addition to the above, this app listens to the topic `ALEXA_DEVICE_SPEAK` for incoming messages of the form `<Echo Device Name>|<Message to Speak>`, i.e., the **device name** and the **message to speak** separated by a `|` character.
 
 Thus, 
-`mosquitto_pub -h <MQTT Broker IP> -t ALEXA_DEVICE_SPEAK -m "Workshop Echo Dot|Hello World"`  will cause the Alexa device named *Workshop Echo Dot* to speak *Hello World*
+`mosquitto_pub -h <MQTT Broker IP> -t ALEXA_DEVICE_SPEAK -m "Workshop Echo Dot|Hello World"`  will cause the Alexa device named *Workshop Echo Dot* to say *"Hello World"*
   
   
